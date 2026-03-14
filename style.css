@@ -259,8 +259,10 @@ body {
   display: flex;
   gap: 25px;
   overflow-x: auto;
+  overflow-y: visible;
   scroll-snap-type: x mandatory;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .carousel::-webkit-scrollbar {
